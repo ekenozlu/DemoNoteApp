@@ -15,4 +15,4 @@ In this demo app I created a Notes application on Swift with Storyboard and Core
 
 ![alt text](https://github.com/ekenozlu/DemoNotesApp/blob/main/addnote_screen.png "Add Note Screen")
 
-![alt text](https://github.com/ekenozlu/DemoNewsApp/blob/main/editnote_screen.png "Edit Note Screen")
+![alt text](https://github.com/ekenozlu/DemoNotesApp/blob/main/editnote_screen.png "Edit Note Screen")
