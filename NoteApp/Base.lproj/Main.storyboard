@@ -58,15 +58,30 @@
                                     <action selector="deleteButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vb1-Aw-ktj"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="github/ekenozlu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5O-bL-PhC">
+                                <rect key="frame" x="139.33333333333334" y="754.33333333333337" width="96.666666666666657" height="15.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This demo app was developed by Eken Özlü on June 2023" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WH3-0C-zaH">
+                                <rect key="frame" x="50" y="715" width="275" height="31.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WH3-0C-zaH" secondAttribute="trailing" constant="50" id="7fM-VZ-w6L"/>
                             <constraint firstItem="lIh-90-zJD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8Dg-Wf-eg7"/>
                             <constraint firstItem="lIh-90-zJD" firstAttribute="top" secondItem="vFo-iP-LXd" secondAttribute="bottom" constant="4" id="9HJ-KX-Rk4"/>
+                            <constraint firstItem="s5O-bL-PhC" firstAttribute="top" secondItem="WH3-0C-zaH" secondAttribute="bottom" constant="8" id="C37-3I-Eba"/>
                             <constraint firstItem="EeD-4X-qcz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GOQ-ad-Aar"/>
                             <constraint firstItem="EeD-4X-qcz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="HfS-aN-tbo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fy5-a4-tnz" secondAttribute="trailing" constant="16" id="OAL-et-bCx"/>
+                            <constraint firstItem="s5O-bL-PhC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="QHx-ar-GLS"/>
                             <constraint firstItem="K8J-Y9-F6l" firstAttribute="top" secondItem="fy5-a4-tnz" secondAttribute="bottom" constant="16" id="Y0K-7U-Y7C"/>
                             <constraint firstItem="hyl-Zi-K0N" firstAttribute="top" secondItem="K8J-Y9-F6l" secondAttribute="bottom" constant="8" id="ZpF-73-97g"/>
                             <constraint firstItem="hyl-Zi-K0N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bXv-53-uby"/>
@@ -75,6 +90,8 @@
                             <constraint firstItem="K8J-Y9-F6l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fKj-QA-aRb"/>
                             <constraint firstItem="vFo-iP-LXd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gY8-jw-hA2"/>
                             <constraint firstItem="hyl-Zi-K0N" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="nhq-Tf-8bz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="s5O-bL-PhC" secondAttribute="bottom" constant="8" id="qtr-By-r9C"/>
+                            <constraint firstItem="WH3-0C-zaH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="vvg-kQ-02v"/>
                             <constraint firstItem="fy5-a4-tnz" firstAttribute="top" secondItem="EeD-4X-qcz" secondAttribute="bottom" constant="8" id="web-wR-hiF"/>
                             <constraint firstItem="vFo-iP-LXd" firstAttribute="top" secondItem="hyl-Zi-K0N" secondAttribute="bottom" constant="16" id="yPg-pL-cJF"/>
                         </constraints>
@@ -183,6 +200,9 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
